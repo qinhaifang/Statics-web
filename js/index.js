@@ -157,3 +157,11 @@ function getQueryString(name, url) {
     if (r != null) return decodeURI(r[2]);
     return "";
 }
+$('.linkSlide').automaticRolling({
+    slideDemo: $('.linkSlide #demo5'),
+    slideMax: $('.linkSlide #demo5').width(),
+    prevBtn: $('.linkSlide .prev'),
+    nextBtn: $('.linkSlide .next'),
+    slideBox:$('.linkSlide .slideBox'),
+
+})
